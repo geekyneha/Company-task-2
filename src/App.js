@@ -1,7 +1,9 @@
-import './App.css';
+import ImageSlider from './components/ImageSlider';
 
-function App() {
-  return <div className="App"></div>;
+export default function App() {
+  return (
+    <div className="app">
+      <ImageSlider />
+    </div>
+  );
 }
-
-export default App;
