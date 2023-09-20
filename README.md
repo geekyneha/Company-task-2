@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Machine Task 1 💻
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
 
-In the project directory, you can run:
+- [Image Slider with Parallax Effect](#image-slider-with-parallax-effect)
+- [Key Features](#key-features)
+- [Dependencies](#dependencies)
+- [Run Locally](#run-locally)
+- [Collabrators](#collabrators)
+- [Tech Stack](#tech-stack)
 
-### `npm start`
+# Image Slider with Parallax Effect
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is a dynamic image slider with a captivating parallax scrolling effect. The goal was to create an engaging UI element that allows users to navigate through a collection of images effortlessly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Key Features
 
-### `npm test`
+1. **Image Slider Powered by Data**:
+   - We've implemented a robust image slider that is powered by mock data. Each slide includes an image, title, and subtitle.
+   - Users can easily navigate through the images using navigation arrows or dots.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Parallax Effect**:
+   - One of the standout features of this slider is the parallax scrolling effect. It provides a sense of depth and immersion as users interact with the slider.
+   - Images move at different speeds relative to the user's scrolling, creating a visually appealing and interactive experience.
 
-### `npm run build`
+3. **Smooth Transitions**:
+   - We've prioritized smooth and visually appealing transitions between images as users navigate through the slider.
+   - Transitions are seamless and enhance the overall user experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Responsive Design**:
+   - The UI is designed to be responsive, ensuring it works seamlessly on various screen sizes and devices.
+   - Whether on a desktop, tablet, or mobile device, users can enjoy the slider's functionality and parallax effect.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. **Custom Styles**:
+   - We've applied custom CSS styles to elevate the overall look and feel of the image slider.
+   - These styles enhance the parallax effect and make the component visually appealing.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. **Code Reusability**:
+   - Our approach prioritizes code reusability, allowing for easy integration into different projects.
+   - The image slider component is designed to be versatile and adaptable.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Here are the main dependencies used in this project:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+- **react**: "^18.2.0"
+- **react-dom**: "^18.2.0"
+- **swiper**: "^10.2.0"
+- **react-scripts**: "5.0.1"
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Run Locally
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone the project
 
-### Code Splitting
+```bash
+git clone https://github.com/geekyneha/Company-task-2.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Install dependencies
 
-### Analyzing the Bundle Size
+```bash
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Start the server
 
-### Making a Progressive Web App
+```bash
+  npm start
+```
+## Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Client:** React.js, CSS Modules,Swiper
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Collabrators
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [@geekyneha](https://github.com/geekyneha/Company-task-2.git)
