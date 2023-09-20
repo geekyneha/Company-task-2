@@ -34,7 +34,7 @@ const ImageSlider = () => {
           className="parallax-bg"
           style={{
             'background-image':
-              'url(https://img.freepik.com/free-vector/alien-planet-landscape-cosmic-background-space_107791-13156.jpg?size=626&ext=jpg&ga=GA1.2.356435471.1688203253&semt=ais',
+              'url(https://c4.wallpaperflare.com/wallpaper/714/717/309/5bd0335a8c605-wallpaper-preview.jpg',
           }}
           data-swiper-parallax="-23%"
         ></div>
@@ -46,7 +46,8 @@ const ImageSlider = () => {
             >
               <img
                 src={data.imageUrl}
-                alt="img "
+                alt="Icon"
+                className="icon-image"
               />
             </div>
             <div
