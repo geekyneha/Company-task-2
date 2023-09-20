@@ -7,15 +7,14 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import '../imageslider.css'
+import '../imageslider.css';
 
-// imported data 
+// imported data
 
-
-const ImageSlider = ({data}) => {
+const ImageSlider = ({ data }) => {
   return (
- <>
-  <Swiper
+    <>
+      <Swiper
         style={{
           '--swiper-navigation-color': '#fff',
           '--swiper-pagination-color': '#fff',
@@ -33,7 +32,7 @@ const ImageSlider = ({data}) => {
           slot="container-start"
           className="parallax-bg"
           style={{
-            'backgroundImage':
+            backgroundImage:
               'url(https://c4.wallpaperflare.com/wallpaper/714/717/309/5bd0335a8c605-wallpaper-preview.jpg',
           }}
           data-swiper-parallax="-23%"
@@ -65,8 +64,8 @@ const ImageSlider = ({data}) => {
           </SwiperSlide>
         ))}
       </Swiper>
- </>
-  )
-}
+    </>
+  );
+};
 
-export default ImageSlider
+export default ImageSlider;
