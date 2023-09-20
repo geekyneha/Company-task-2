@@ -10,9 +10,9 @@ import 'swiper/css/navigation';
 import '../imageslider.css'
 
 // imported data 
-import { data } from '../utils/mock';
 
-const ImageSlider = () => {
+
+const ImageSlider = ({data}) => {
   return (
  <>
   <Swiper
@@ -33,13 +33,13 @@ const ImageSlider = () => {
           slot="container-start"
           className="parallax-bg"
           style={{
-            'background-image':
+            'backgroundImage':
               'url(https://c4.wallpaperflare.com/wallpaper/714/717/309/5bd0335a8c605-wallpaper-preview.jpg',
           }}
           data-swiper-parallax="-23%"
         ></div>
         {data.map((data) => (
-          <SwiperSlide>
+          <SwiperSlide key={data.id}>
             <div
               className="title"
               data-swiper-parallax="-300"
